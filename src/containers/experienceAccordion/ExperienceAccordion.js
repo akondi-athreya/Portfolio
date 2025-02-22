@@ -10,6 +10,7 @@ class ExperienceAccordion extends Component {
       <div className="experience-accord">
         <Accordion>
           {this.props.sections.map((section) => {
+            console.log(section);
             return (
               <Panel
                 className="accord-panel"
@@ -18,16 +19,16 @@ class ExperienceAccordion extends Component {
                 overrides={{
                   Header: {
                     style: () => ({
-                      backgroundColor: `${theme.body}`,
+                      backgroundColor: "#1589b0",
                       border: `1px solid`,
                       borderRadius: `5px`,
                       borderColor: `${theme.headerColor}`,
                       marginBottom: `3px`,
+                      fontSize: "20px",
+                      paddingLeft: "50px",
                       fontFamily: "Google Sans Regular",
-                      color: `${theme.text}`,
-                      ":hover": {
-                        color: `${theme.secondaryText}`,
-                      },
+                      color: "white",
+                      fontWeight: "bold",
                     }),
                   },
                   Content: {
@@ -37,9 +38,14 @@ class ExperienceAccordion extends Component {
                   },
                 }}
               >
-{section["experiences"].map((experience,index) => {
+                {section["experiences"].map((experience, index) => {
                   return (
-                    <ExperienceCard index={index} totalCards={section["experiences"].length} experience={experience} theme={theme} />
+                    <ExperienceCard
+                      index={index}
+                      totalCards={section["experiences"].length}
+                      experience={experience}
+                      theme={theme}
+                    />
                   );
                 })}
               </Panel>
