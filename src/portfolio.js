@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Athreya Akondi Portfolio",
     type: "website",
-    url: "#",
+    url: "https://athreya.vercel.app/",
   },
 };
 
