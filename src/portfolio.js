@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A full-stack developer passionate about building scalable and impactful solutions. I thrive on creating seamless systems and focus on building efficient and user-friendly solutions.",
   resumeLink:
-    "https://drive.google.com/file/d/1QdKK9FsjarA9NDbWokqq0CDkC4RFwaXx/view?usp=sharing",
+    "https://drive.google.com/file/d/1ygg8TXKVAmQhDFwcBabSH6GEQfHXSkqL/view?usp=sharing",
   portfolio_repository: "https://github.com/akondi-athreya/Portfolio",
   githubProfile: "https://github.com/akondi-athreya",
 };
