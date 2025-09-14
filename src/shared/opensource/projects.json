@@ -1,0 +1,318 @@
+{
+  "data": [
+    {
+      "id": "R_kgDOJWL0-g",
+      "name": "Coding Contest Remainder",
+      "createdAt": "2024-06",
+      "url": "https://github.com/akondi-athreya/CodingContestReminder",
+      "description": "📝 integrating APIs from platforms like to display upcoming contests. Implemented filters, sorting, and real-time updates, ensuring users never miss a competition.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5",
+          "svgPath": "/icons/svg/HTML5.svg"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3",
+          "svgPath": "/icons/svg/CSS3.svg"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript",
+          "svgPath": "/icons/svg/Javascript.svg"
+        },
+        {
+          "name": "Bootstrap",
+          "iconifyClass": "logos-bootstrap",
+          "svgPath": "/icons/svg/Bootstrap.svg"
+        },
+        {
+          "name": "GitHub",
+          "iconifyClass": "logos-github-icon",
+          "svgPath": "/icons/svg/GitHub.svg"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "VEDA Tech Fest Event Website - In Collaboration with Aditya University (Live)",
+      "createdAt": "2022-08-13",
+      "url": "https://adityauniversity.in/veda2024",
+      "description": "🔥Live - Developed a dynamic website for VEDA, a two-day college tech fest that enables event registration and real-time updates, to deliver a responsive and user-friendly platform.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React.js",
+          "iconifyClass": "logos-react",
+          "svgPath": "/icons/svg/React.svg"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos-nodejs",
+          "svgPath": "/icons/svg/Nodejs.svg"
+        },
+        {
+          "name": "Express",
+          "iconifyClass": "logos-express",
+          "svgPath": "/icons/svg/Express.svg"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "logos-mongodb",
+          "svgPath": "/icons/svg/Mongodb.svg"
+        },
+        {
+          "name": "GitHub",
+          "iconifyClass": "logos-github-icon",
+          "svgPath": "/icons/svg/GitHub.svg"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "LateComers - In Collaboration with Aditya University (Live)",
+      "createdAt": "2024-12-31",
+      "url": "https://adityauniversity.in/latecomers/login",
+      "description": "🔥Live - an attendance management system with automated messages and late student reports sent to Deans, HODs, and Principals.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Figma",
+          "iconifyClass": "logos-figma",
+          "svgPath": "/icons/svg/Figma.svg"
+        },
+        {
+          "name": "Vite",
+          "iconifyClass": "logos-vite",
+          "svgPath": "/icons/svg/Vitejs.svg"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react",
+          "svgPath": "/icons/svg/React.svg"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos-nodejs",
+          "svgPath": "/icons/svg/Nodejs.svg"
+        },
+        {
+          "name": "Express",
+          "iconifyClass": "logos-express",
+          "svgPath": "/icons/svg/Express.svg"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "logos-mongodb",
+          "svgPath": "/icons/svg/Mongodb.svg"
+        },
+        {
+          "name": "GitHub",
+          "iconifyClass": "logos-github-icon",
+          "svgPath": "/icons/svg/GitHub.svg"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG0_8uQ",
+      "name": "twitter24.",
+      "createdAt": "2025-02",
+      "url": "https://github.com/akondi-athreya",
+      "description": "Live - A platform for business owners to create accounts and upload their store-related data, enabling them to manage and showcase their offerings in real-time.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Figma",
+          "iconifyClass": "logos-figma",
+          "svgPath": "/icons/svg/Figma.svg"
+        },
+        {
+          "name": "Vite",
+          "iconifyClass": "logos-vite",
+          "svgPath": "/icons/svg/Vitejs.svg"
+        },
+        {
+          "name": "React.js",
+          "iconifyClass": "logos-react",
+          "svgPath": "/icons/svg/React.svg"
+        },
+        {
+          "name": "Next.js",
+          "iconifyClass": "logos-nextjs",
+          "svgPath": "/icons/svg/Nextjs.svg"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos-nodejs",
+          "svgPath": "/icons/svg/Nodejs.svg"
+        },
+        {
+          "name": "Express",
+          "iconifyClass": "logos-express",
+          "svgPath": "/icons/svg/Express.svg"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "logos-mongodb",
+          "svgPath": "/icons/svg/Mongodb.svg"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconifyClass": "logos-tailwindcss",
+          "svgPath": "/icons/svg/Tailwind-css.svg"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos-firebase",
+          "svgPath": "/icons/svg/Firebase.svg"
+        },
+        {
+          "name": "Redux",
+          "iconifyClass": "logos-redux",
+          "svgPath": "/icons/svg/Redux.svg"
+        },
+        {
+          "name": "vercel",
+          "iconifyClass": "logos-vercel",
+          "svgPath": "/icons/svg/Vercel.svg"
+        },
+        {
+          "name": "GitHub",
+          "iconifyClass": "logos-github-icon",
+          "svgPath": "/icons/svg/GitHub.svg"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG0_8uQ",
+      "name": "ConnectApp",
+      "createdAt": "2025-05 to 2025-06",
+      "url": "https://github.com/akondi-athreya",
+      "description": "A React Native mobile application that enables users to connect multiple services like Ambulance, Blood Bank and Dishaa from a single platform, providing seamless access to emergency and essential services. It's a microservice-based application, ensuring scalability and efficient data management.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Figma",
+          "iconifyClass": "logos-figma",
+          "svgPath": "/icons/svg/Figma.svg"
+        },
+        {
+          "name": "Vite",
+          "iconifyClass": "logos-vite",
+          "svgPath": "/icons/svg/Vitejs.svg"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react",
+          "svgPath": "/icons/svg/React.svg"
+        },
+        {
+          "name": "Next.js",
+          "iconifyClass": "logos-nextjs",
+          "svgPath": "/icons/svg/Nextjs.svg"
+        },
+        {
+          "name": "React Native",
+          "iconifyClass": "logos-react",
+          "svgPath": "/icons/svg/React.svg"
+        },
+        {
+          "name": "Expo",
+          "iconifyClass": "logos-expo"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos-nodejs",
+          "svgPath": "/icons/svg/Nodejs.svg"
+        },
+        {
+          "name": "Express",
+          "iconifyClass": "logos-express",
+          "svgPath": "/icons/svg/Express.svg"
+        },
+        {
+          "name": "Spring Boot",
+          "iconifyClass": "logos-spring-boot",
+          "svgPath": "/icons/svg/Spring.svg"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "logos-mongodb",
+          "svgPath": "/icons/svg/Mongodb.svg"
+        },
+        {
+          "name": "PostgresSQL",
+          "iconifyClass": "logos-postgresql",
+          "svgPath": "/icons/svg/PostgresSQL.svg"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconifyClass": "logos-tailwindcss",
+          "svgPath": "/icons/svg/Tailwind-css.svg"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos-firebase",
+          "svgPath": "/icons/svg/Firebase.svg"
+        },
+        {
+          "name": "vercel",
+          "iconifyClass": "logos-vercel",
+          "svgPath": "/icons/svg/Vercel.svg"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "logos-docker",
+          "svgPath": "/icons/svg/Docker.svg"
+        },
+        {
+          "name": "GitHub",
+          "iconifyClass": "logos-github-icon",
+          "svgPath": "/icons/svg/GitHub.svg"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "HRMS -  In Collaboration with Technical Hub (Live)",
+      "createdAt": "present",
+      "url": "https://hrms.technicalhub.io",
+      "description": "Human Resource Management System - A comprehensive platform designed to streamline and automate HR processes, including employee onboarding, attendance tracking, performance evaluations, and payroll management, enhancing overall organizational efficiency.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Figma",
+          "iconifyClass": "logos-figma",
+          "svgPath": "/icons/svg/Figma.svg"
+        },
+        {
+          "name": "Next.js",
+          "iconifyClass": "logos-nextjs",
+          "svgPath": "/icons/svg/Nextjs.svg"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos-nodejs",
+          "svgPath": "/icons/svg/Nodejs.svg"
+        },
+        {
+          "name": "Express",
+          "iconifyClass": "logos-express",
+          "svgPath": "/icons/svg/Express.svg"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "logos-mongodb",
+          "svgPath": "/icons/svg/Mongodb.svg"
+        },
+        {
+          "name": "GitHub",
+          "iconifyClass": "logos-github-icon",
+          "svgPath": "/icons/svg/GitHub.svg"
+        }
+      ]
+    }
+  ]
+}
