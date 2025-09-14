@@ -21,7 +21,7 @@
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript",
-          "svgPath": "/icons/svg/Javascript.svg"
+          "svgPath": "/icons/svg/JavaScript.svg"
         },
         {
           "name": "Bootstrap",
@@ -61,7 +61,7 @@
         {
           "name": "MongoDB",
           "iconifyClass": "logos-mongodb",
-          "svgPath": "/icons/svg/Mongodb.svg"
+          "svgPath": "/icons/svg/MongoDB.svg"
         },
         {
           "name": "GitHub",
@@ -106,7 +106,7 @@
         {
           "name": "MongoDB",
           "iconifyClass": "logos-mongodb",
-          "svgPath": "/icons/svg/Mongodb.svg"
+          "svgPath": "/icons/svg/MongoDB.svg"
         },
         {
           "name": "GitHub",
@@ -156,12 +156,12 @@
         {
           "name": "MongoDB",
           "iconifyClass": "logos-mongodb",
-          "svgPath": "/icons/svg/Mongodb.svg"
+          "svgPath": "/icons/svg/MongoDB.svg"
         },
         {
           "name": "Tailwind CSS",
           "iconifyClass": "logos-tailwindcss",
-          "svgPath": "/icons/svg/Tailwind-css.svg"
+          "svgPath": "/icons/svg/Tailwind-CSS.svg"
         },
         {
           "name": "Firebase",
@@ -240,7 +240,7 @@
         {
           "name": "MongoDB",
           "iconifyClass": "logos-mongodb",
-          "svgPath": "/icons/svg/Mongodb.svg"
+          "svgPath": "/icons/svg/MongoDB.svg"
         },
         {
           "name": "PostgresSQL",
@@ -250,7 +250,7 @@
         {
           "name": "Tailwind CSS",
           "iconifyClass": "logos-tailwindcss",
-          "svgPath": "/icons/svg/Tailwind-css.svg"
+          "svgPath": "/icons/svg/Tailwind-CSS.svg"
         },
         {
           "name": "Firebase",
@@ -305,7 +305,7 @@
         {
           "name": "MongoDB",
           "iconifyClass": "logos-mongodb",
-          "svgPath": "/icons/svg/Mongodb.svg"
+          "svgPath": "/icons/svg/MongoDB.svg"
         },
         {
           "name": "GitHub",
