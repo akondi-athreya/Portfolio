@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A full-stack developer passionate about building scalable and impactful solutions. I thrive on creating seamless systems and focus on building efficient and user-friendly solutions.",
   resumeLink:
-    "https://drive.google.com/file/d/1t7d7Ktpdc1QfaNposhwCJ0Po9aaBBWaA/view?usp=sharing",
+    "https://drive.google.com/file/d/1IDdcDwnLHIFKUMUg5PeKtJIlo8N3h5yK/view?usp=sharing",
   portfolio_repository: "https://github.com/akondi-athreya/Portfolio",
   githubProfile: "https://github.com/akondi-athreya",
 };
@@ -571,7 +571,8 @@ const experience = {
           logo_path: "thub_logo.png",
           duration: "Jul 2025 - present",
           location: "Surampalem.",
-          description: "Working on a project called HRMS, which is a Human Resource Management System. It is a web application that helps companies manage their employees, payroll, and other HR-related tasks. The project is being developed using Next.js for the frontend, Node.js (Express.js) for the backend and Flutter for Mobile Application. My role is to develop the backend and REST APIs of the application.",
+          description:
+            "Working on a project called HRMS, which is a Human Resource Management System. It is a web application that helps companies manage their employees, payroll, and other HR-related tasks. The project is being developed using Next.js for the frontend, Node.js (Express.js) for the backend and Flutter for Mobile Application. My role is to develop the backend and REST APIs of the application.",
           color: "#ee3c26",
         },
       ],
@@ -598,7 +599,8 @@ const experience = {
           logo_path: "ai.png",
           duration: "",
           location: "",
-          description: "Passionate about Artificial Intelligence and its applications. Continuously learning and exploring the latest advancements in AI, including machine learning, deep learning, and natural language processing. Eager to apply AI techniques to solve real-world problems and contribute to innovative projects.",
+          description:
+            "Passionate about Artificial Intelligence and its applications. Continuously learning and exploring the latest advancements in AI, including machine learning, deep learning, and natural language processing. Eager to apply AI techniques to solve real-world problems and contribute to innovative projects.",
           color: "#000000",
         },
       ],
