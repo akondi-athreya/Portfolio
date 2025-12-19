@@ -58,21 +58,17 @@ if (status) {
 
 const repoRoot = process.cwd();
 
-// Find all JS/JSX source files in src/ and related directories
+// Find all JS/JSX source files in src/ only (safe to modify)
 function findSourceFiles() {
-  const dirs = ['./src', './public', '.'];
   const allFiles = [];
-  for (const dir of dirs) {
-    try {
-      const files = sh(`find ${dir} -maxdepth 4 -type f \\( -name "*.js" -o -name "*.jsx" -o -name "*.css" -o -name "*.md" \\) 2>/dev/null | head -100`).split('\n').filter(Boolean);
-      allFiles.push(...files);
-    } catch (_) {}
-  }
-  // Remove duplicates and exclude node_modules, git, build
+  try {
+    const files = sh(`find ./src -type f \\( -name "*.js" -o -name "*.jsx" \\) 2>/dev/null | head -100`).split('\n').filter(Boolean);
+    allFiles.push(...files);
+  } catch (_) {}
+  // Remove duplicates
   const seen = new Set();
   return allFiles.filter(f => {
     if (seen.has(f)) return false;
-    if (f.includes('node_modules') || f.includes('.git')) return false;
     seen.add(f);
     return true;
   }).slice(0, 50); // limit to 50 files
