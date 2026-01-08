@@ -9,6 +9,7 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
+import TestingPage from "../pages/testingpage/TestingPage.js";
 
 export default class Main extends Component {
   render() {
@@ -37,27 +38,33 @@ export default class Main extends Component {
               <Education {...props} theme={this.props.theme} />
             )}
           />
-          <Route
+          {/* <Route
             path="/opensource"
             render={(props) => (
               <Opensource {...props} theme={this.props.theme} />
             )}
-          />
+          /> */}
           <Route
             path="/contact"
             render={(props) => <Contact {...props} theme={this.props.theme} />}
           />
 
-          {settings.isSplash && (
+          {/* {settings.isSplash && (
             <Route
               path="/splash"
               render={(props) => <Splash {...props} theme={this.props.theme} />}
             />
-          )}
+          )} */}
 
           <Route
             path="/projects"
             render={(props) => <Projects {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/testing"
+            render={(props) => (
+              <TestingPage {...props} theme={this.props.theme} />
+            )}
           />
           <Route
             path="*"

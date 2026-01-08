@@ -32,7 +32,7 @@
 
 .greeting-text {
   margin-top: 80px;
-  font-size: 70px;
+  font-size: 3rem;
   line-height: 1.1;
   font-family: "Google Sans Bold";
 }
@@ -44,7 +44,7 @@
 }
 
 .greeting-text-p {
-  font-size: 35px;
+  font-size: 25px;
   line-height: 40px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
@@ -53,6 +53,14 @@
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
+}
+
+.infinite-menu-wrapper {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  border-radius: 40px;
+  overflow: hidden;
 }
 
 /* Media Query */
@@ -91,5 +99,12 @@
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+
+  .infinite-menu-wrapper {
+    height: 320px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 28px;
   }
 }
