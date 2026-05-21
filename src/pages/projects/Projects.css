@@ -73,6 +73,16 @@
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 60px;
+  justify-content: center;
+}
+
+.gpp-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin: 40px auto;
+  padding: 0 5%;
+  width: 100%;
 }
 
 @media (max-width: 1380px) {

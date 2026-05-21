@@ -23,9 +23,9 @@ const greeting = {
   logo_name: "Athreya Akondi",
   nickname: "Athreya",
   subTitle:
-    "A full-stack developer passionate about building scalable and impactful solutions. I thrive on creating seamless systems and focus on building efficient and user-friendly solutions.",
+    "An engineering-focused full-stack developer passionate about architecting scalable, production-grade systems. I specialize in building efficient, user-centric solutions across AI/ML, FinTech, and SaaS domains, with a strong emphasis on real-world patterns and production standards.",
   resumeLink:
-    "https://drive.google.com/file/d/1PrIWD3hwFJRry9L8g6UkWo3dvOH3aXjB/view?usp=drive_link",
+    "https://drive.google.com/file/d/1PrIWD3hwFJRry9L8g6UkWo3dvOH3aXjB/view?usp=sharing",
   portfolio_repository: "https://github.com/akondi-athreya/Portfolio",
   githubProfile: "https://github.com/akondi-athreya",
 };
@@ -95,6 +95,7 @@ const skills = {
         "⚡ Creating and managing backend APIs with Node.js, Express.js, and MongoDB",
         "⚡ Implementing authentication and security features including JWT and OTP verification",
         "⚡ Handling real-time data and event-driven architectures",
+        "⚡ Experience with Framer Motion and GSAP for interactive and animated personal branding",
       ],
       softwareSkills: [
         {
@@ -189,39 +190,25 @@ const skills = {
             color: "black",
           },
         },
-
-        // {
-        //   skillName: "Yarn",
-        //   fontAwesomeClassname: "simple-icons:yarn",
-        //   style: {
-        //     color: "#2C8EBB",
-        //   },
-        // },
-        // {
-        //   skillName: "Gatsby",
-        //   fontAwesomeClassname: "simple-icons:gatsby",
-        //   style: {
-        //     color: "#663399",
-        //   },
-        // },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
+        {
+          skillName: "Vite",
+          fontAwesomeClassname: "simple-icons:vite",
+          style: {
+            color: "#646CFF",
+          },
+        },
       ],
     },
     {
-      title: "DataBase",
+      title: "DataBase & Infra",
       fileName: "BlogsImg",
       skills: [
         "⚡ Proficient in database design, modeling, and normalization",
-        "⚡ Experience with relational (SQL) and NoSQL databases",
+        "⚡ Experience with relational (SQL) and NoSQL databases like MongoDB, PostgreSQL, Redis",
         "⚡ Optimizing database performance, indexing, and query tuning",
-        "⚡ Implementing database security and strategies",
-        // "⚡ Working with cloud-based databases on AWS, GCP, and Azure",
+        "⚡ Implementing real-time CDC using Debezium and Apache Kafka",
+        "⚡ Handling secret management with HashiCorp Vault",
+        "⚡ Building scalable log aggregation pipelines with Fluentd and Kafka",
       ],
       softwareSkills: [
         {
@@ -239,48 +226,33 @@ const skills = {
           },
         },
         {
-          skillName: "SQL",
-          fontAwesomeClassname: "simple-icons:mysql",
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
           style: {
-            color: "#4285F4",
+            color: "#336791",
           },
         },
-        // {
-        //   skillName: "AWS",
-        //   fontAwesomeClassname: "simple-icons:amazonaws",
-        //   style: {
-        //     color: "#FF9900",
-        //   },
-        // },
-        // {
-        //   skillName: "Azure",
-        //   fontAwesomeClassname: "simple-icons:microsoftazure",
-        //   style: {
-        //     color: "#0089D6",
-        //   },
-        // },
-
-        // {
-        //   skillName: "PostgreSQL",
-        //   fontAwesomeClassname: "simple-icons:postgresql",
-        //   style: {
-        //     color: "#336791",
-        //   },
-        // },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
-        // {
-        //   skillName: "Kubernetes",
-        //   fontAwesomeClassname: "simple-icons:kubernetes",
-        //   style: {
-        //     color: "#326CE5",
-        //   },
-        // },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "simple-icons:redis",
+          style: {
+            color: "#DC382D",
+          },
+        },
+        {
+          skillName: "Apache Kafka",
+          fontAwesomeClassname: "simple-icons:apachekafka",
+          style: {
+            color: "black",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#2496ED",
+          },
+        },
       ],
     },
     {
@@ -289,54 +261,58 @@ const skills = {
       skills: [
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
         "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ BERT-based multi-task learning with MLflow and ONNX Runtime",
+        "⚡ LLM Prompt Routing and offline inference with Ollama and Llama 3.2",
       ],
       softwareSkills: [
         {
           skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
+          fontAwesomeClassname: "logos:tensorflow",
         },
-        // {
-        //   skillName: "Keras",
-        //   fontAwesomeClassname: "simple-icons:keras",
-        //   style: {
-        //     backgroundColor: "white",
-        //     color: "#D00000",
-        //   },
-        // },
-        // {
-        //   skillName: "PyTorch",
-        //   fontAwesomeClassname: "logos-pytorch",
-        //   style: {
-        //     backgroundColor: "transparent",
-        //   },
-        // },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos:pytorch-icon",
+        },
         {
           skillName: "Python",
           fontAwesomeClassname: "",
+        },
+        {
+          skillName: "Hugging Face",
+          fontAwesomeClassname: "simple-icons:huggingface",
           style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
+            color: "#FFD21E",
           },
         },
         {
           skillName: "Deeplearning",
           imageSrc: "deeplearning_ai_logo.png",
         },
+        {
+          skillName: "Ollama",
+          fontAwesomeClassname: "simple-icons:ollama",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "MLflow",
+          fontAwesomeClassname: "simple-icons:mlflow",
+          style: {
+            color: "#0194E2",
+          },
+        },
       ],
     },
 
     {
-      title: "Programming",
+      title: "Programming & Patterns",
       fileName: "Programmer",
       skills: [
         "⚡ Strong command of Java for building object-oriented and scalable applications",
-        "⚡ Skilled in Python for scripting, data manipulation.",
-        "⚡ Experienced in writing clean, efficient, and well-documented code across multiple languages",
-        "⚡ Familiar with debugging, testing, and optimizing code in C, C++, Java, and Python",
+        "⚡ Skilled in Python for scripting, data manipulation and backend services with FastAPI",
+        "⚡ Architectural expertise in CQRS, Repository Pattern, and Multi-Tenancy",
+        "⚡ Implementing system resilience with Bulkhead Pattern and Circuit Breakers",
       ],
       softwareSkills: [
         {
@@ -365,6 +341,20 @@ const skills = {
           fontAwesomeClassname: "",
           style: {
             // color: "#000000",
+          },
+        },
+        {
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "simple-icons:springboot",
+          style: {
+            color: "#6DB33F",
+          },
+        },
+        {
+          skillName: "FastAPI",
+          fontAwesomeClassname: "simple-icons:fastapi",
+          style: {
+            color: "#05998B",
           },
         },
       ],
@@ -569,10 +559,10 @@ const experience = {
           company: "Technical Hub",
           company_url: "https://technicalhub.io",
           logo_path: "thub_logo.png",
-          duration: "Jul 2025 - present",
+          duration: "Jul 2025 - Nov 2025",
           location: "Surampalem.",
           description:
-            "Working on a project called HRMS, which is a Human Resource Management System. It is a web application that helps companies manage their employees, payroll, and other HR-related tasks. The project is being developed using Next.js for the frontend, Node.js (Express.js) for the backend and Flutter for Mobile Application. My role is to develop the backend and REST APIs of the application.",
+            "Working on a project called HiBi, which is a Human Resource Management System. It is a web application that helps companies manage their employees, payroll, and other HR-related tasks. The project is being developed using Next.js for the frontend, Node.js (Express.js) for the backend and Flutter for Mobile Application. My role is to develop the backend and REST APIs of the application.",
           color: "#ee3c26",
         },
       ],

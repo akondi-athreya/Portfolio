@@ -153,6 +153,20 @@ export const yellowTheme = {
   splashBg: "#5f4339",
 };
 
+export const modernTheme = {
+  body: "#F8FAFC",
+  text: "#0F172A",
+  expTxtColor: "#000000",
+  highlight: "#E2E8F0",
+  dark: "#1E293B",
+  secondaryText: "#475569",
+  imageHighlight: "#334155",
+  compImgHighlight: "#CBD5E1",
+  jacketColor: "#0F172A",
+  headerColor: "#33415577",
+  splashBg: "#0F172A",
+};
+
 export const materialDarkTheme = {
   body: "#263238",
   text: "#aeaeae",
@@ -195,5 +209,4 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = blackTheme;
-// export const chosenTheme = brownTheme;
+export const chosenTheme = modernTheme;

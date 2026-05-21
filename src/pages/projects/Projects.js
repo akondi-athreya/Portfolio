@@ -13,6 +13,7 @@ import {
   publications,
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
+import GppProjectsData from "../../shared/opensource/gpp_projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
@@ -54,6 +55,46 @@ class Projects extends Component {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
         </div>
+
+        <div className="basic-projects">
+          <Fade bottom duration={2000} distance="40px">
+            <div className="publications-heading-div">
+              <div className="publications-heading-text-div">
+                <h1
+                  className="publications-heading-text"
+                  style={{ color: theme.text }}
+                >
+                  GPP Project Hub
+                </h1>
+                <p
+                  className="projects-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  The Global Placement Program (GPP) by Partnr is an intensive
+                  engineering program where participants are assigned to build
+                  and ship one production-grade system per week. The program
+                  focuses on shifting from "writing code" to "engineering
+                  systems," emphasizing real-world patterns, production
+                  standards, and solving complex problems across various domains
+                  like AI/ML, FinTech, and SaaS.
+                </p>
+                <p
+                  className="projects-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText, marginTop: "10px" }}
+                >
+                  Here are the 25 mini-projects I built and shipped under this
+                  program:
+                </p>
+              </div>
+            </div>
+          </Fade>
+        </div>
+        <div className="gpp-projects-grid">
+          {GppProjectsData.data.map((repo) => {
+            return <GithubRepoCard repo={repo} theme={theme} />;
+          })}
+        </div>
+
         <Button
           text={"More..."}
           className="project-button"

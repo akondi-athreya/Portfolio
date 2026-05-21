@@ -1,0 +1,634 @@
+{
+  "data": [
+    {
+      "id": "GPP-1",
+      "name": "Cipher-Dock",
+      "createdAt": "2024-07-01",
+      "url": "https://github.com/akondi-athreya/gpp-1-cipher-dock",
+      "description": "Production-grade PKI-Based 2FA Microservice fusing RSA-2048 asymmetric encryption with RFC 6238 TOTP. Implements secure key exchange, multi-factor authentication flows, and containerized deployment for high-security environments.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "logos:docker-icon"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos:javascript"
+        }
+      ]
+    },
+    {
+      "id": "GPP-2",
+      "name": "Library Management API",
+      "createdAt": "2024-07-08",
+      "url": "https://github.com/akondi-athreya/gpp-library-management",
+      "description": "A fully modeled library workflow system using State Machines for book lifecycles (Available, Borrowed, Reserved, Lost). Handles member suspension logic, overdue tracking, and fine calculation with strict data integrity using Prisma ORM.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos:postgresql"
+        },
+        {
+          "name": "Prisma",
+          "iconifyClass": "logos:prisma"
+        },
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos:typescript-icon"
+        }
+      ]
+    },
+    {
+      "id": "GPP-3",
+      "name": "Workspace Hub",
+      "createdAt": "2024-07-15",
+      "url": "https://github.com/akondi-athreya/gpp-workspace-hub",
+      "description": "Enterprise-ready Multi-tenant SaaS platform featuring 3-tier RBAC (Admin, Manager, User) and strict Row-Level Security (RLS) for data isolation. Built with React and Node.js, ensuring scalable workspace management.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos:postgresql"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "logos:docker-icon"
+        }
+      ]
+    },
+    {
+      "id": "GPP-4",
+      "name": "Payment Gateway V1",
+      "createdAt": "2024-07-22",
+      "url": "https://github.com/akondi-athreya/gpp-payment-gateway",
+      "description": "Full-stack payment processing system handling UPI and Card transactions. Leverages Redis-backed asynchronous background workers for transaction status polling and resilient payment flow management.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos:java"
+        },
+        {
+          "name": "Spring Boot",
+          "iconifyClass": "logos:spring-icon"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "name": "Redis",
+          "iconifyClass": "logos:redis"
+        }
+      ]
+    },
+    {
+      "id": "GPP-5",
+      "name": "Payment Gateway V2",
+      "createdAt": "2024-07-29",
+      "url": "https://github.com/akondi-athreya/gpp-payment-gateway-v2",
+      "description": "Advanced iteration of the payment gateway adding production-critical features: Refund management, Idempotency keys to prevent double-charging, and a robust Webhook system for real-time merchant notifications.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos:java"
+        },
+        {
+          "name": "Spring Boot",
+          "iconifyClass": "logos:spring-icon"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos:postgresql"
+        },
+        {
+          "name": "Redis",
+          "iconifyClass": "logos:redis"
+        }
+      ]
+    },
+    {
+      "id": "GPP-6",
+      "name": "ML Inference API",
+      "createdAt": "2024-08-05",
+      "url": "https://github.com/akondi-athreya/gpp-api-for-ml",
+      "description": "High-performance REST service for Machine Learning model serving. Implements the Singleton pattern for efficient resource management and Pydantic for strict input validation, ensuring low-latency inference in production.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos:python"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "logos:fastapi-icon"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "logos:docker-icon"
+        },
+        {
+          "name": "Pydantic",
+          "iconifyClass": "simple-icons:pydantic"
+        }
+      ]
+    },
+    {
+      "id": "GPP-7",
+      "name": "SwiftCart",
+      "createdAt": "2024-08-12",
+      "url": "https://github.com/akondi-athreya/gpp_e_commerce",
+      "description": "Modern E-commerce platform utilizing Next.js Server-Side Rendering (SSR) for SEO and performance. Integrated GitHub OAuth 2.0 via NextAuth and dynamic inventory management with Prisma and PostgreSQL.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Next.js",
+          "iconifyClass": "logos:nextjs-icon"
+        },
+        {
+          "name": "Prisma",
+          "iconifyClass": "logos:prisma"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos:postgresql"
+        }
+      ]
+    },
+    {
+      "id": "GPP-8",
+      "name": "Multi-Task NLP API",
+      "createdAt": "2024-08-19",
+      "url": "https://github.com/akondi-athreya/gpp-nlp-api",
+      "description": "Sophisticated NLP service featuring a shared DistilBERT encoder optimized for three simultaneous tasks: Sentiment Analysis, Named Entity Recognition (NER), and Question Answering. Uses ONNX Runtime and MLflow for lifecycle management.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos:python"
+        },
+        {
+          "name": "PyTorch",
+          "iconifyClass": "logos:pytorch-icon"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "logos:fastapi-icon"
+        },
+        {
+          "name": "MLflow",
+          "iconifyClass": "simple-icons:mlflow"
+        }
+      ]
+    },
+    {
+      "id": "GPP-9",
+      "name": "Twitter Sentiment Analysis",
+      "createdAt": "2024-08-26",
+      "url": "https://github.com/akondi-athreya/gpp_Twitter_Sentiment_Analysis",
+      "description": "End-to-end Machine Learning pipeline for fine-tuning DistilBERT on IMDB/Twitter datasets. Features a Streamlit-based interactive dashboard for real-time sentiment classification and model performance visualization.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos:python"
+        },
+        {
+          "name": "Streamlit",
+          "iconifyClass": "logos:streamlit"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "logos:fastapi-icon"
+        },
+        {
+          "name": "HuggingFace",
+          "iconifyClass": "simple-icons:huggingface"
+        }
+      ]
+    },
+    {
+      "id": "GPP-10",
+      "name": "Product Catalog Service",
+      "createdAt": "2024-09-02",
+      "url": "https://github.com/akondi-athreya/gpp_product_catalog",
+      "description": "Clean-architecture microservice using the Repository Pattern to decouple business logic from data access. Implements PostgreSQL Full-Text Search (FTS) for ultra-fast product discovery and indexed filtering.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos:postgresql"
+        },
+        {
+          "name": "Prisma",
+          "iconifyClass": "logos:prisma"
+        }
+      ]
+    },
+    {
+      "id": "GPP-11",
+      "name": "Data Sync Pipeline",
+      "createdAt": "2024-09-09",
+      "url": "https://github.com/akondi-athreya/gpp_data_synchronization_pipeline",
+      "description": "Real-time Change Data Capture (CDC) pipeline using Debezium and Apache Kafka. Synchronizes state between PostgreSQL (Source) and MongoDB (Sink) with low latency, handling schema evolution and high-throughput events.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Kafka",
+          "iconifyClass": "logos:kafka"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos:postgresql"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "logos:mongodb-icon"
+        }
+      ]
+    },
+    {
+      "id": "GPP-12",
+      "name": "SaaS Analytics Dashboard",
+      "createdAt": "2024-09-16",
+      "url": "https://github.com/akondi-athreya/gpp-Multi-Tenant-SaaS-Analytics-Dashboard",
+      "description": "Cutting-edge Next.js 14 project showcasing React Server Components (RSC) streaming, parallel routes, and server actions. Implements complex data visualization for multi-tenant SaaS analytics with Playwright for E2E testing.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Next.js",
+          "iconifyClass": "logos:nextjs-icon"
+        },
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos:typescript-icon"
+        },
+        {
+          "name": "Prisma",
+          "iconifyClass": "logos:prisma"
+        },
+        {
+          "name": "Playwright",
+          "iconifyClass": "logos:playwright"
+        }
+      ]
+    },
+    {
+      "id": "GPP-13",
+      "name": "StreamDrive",
+      "createdAt": "2024-09-23",
+      "url": "https://github.com/akondi-athreya/gpp-stream-drive",
+      "description": "Browser-based explorer for SMB network drives. Features lazy-loaded file trees, high-performance streaming for large files, and inline previews for documents and media, built with Next.js and Tailwind CSS.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Next.js",
+          "iconifyClass": "logos:nextjs-icon"
+        },
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos:typescript-icon"
+        },
+        {
+          "name": "Tailwind",
+          "iconifyClass": "logos:tailwindcss-icon"
+        }
+      ]
+    },
+    {
+      "id": "GPP-14",
+      "name": "LLM Prompt Router",
+      "createdAt": "2024-09-30",
+      "url": "https://github.com/akondi-athreya/gpp-llm-powered-prompt-router",
+      "description": "Two-stage AI architecture for intelligent prompt management. Uses an intent classifier to route requests to specialist LLM personas (e.g., Coder, Writer, Critic), optimizing response accuracy and token cost.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos:python"
+        },
+        {
+          "name": "OpenAI",
+          "iconifyClass": "logos:openai-icon"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "logos:fastapi-icon"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "logos:docker-icon"
+        }
+      ]
+    },
+    {
+      "id": "GPP-15",
+      "name": "Customer Support Chatbot",
+      "createdAt": "2024-10-07",
+      "url": "https://github.com/akondi-athreya/gpp-chatbot",
+      "description": "Privacy-first customer support chatbot running entirely offline. Leverages local Llama 3.2 models via Ollama to provide secure, low-latency automated support without sending sensitive data to external APIs.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos:python"
+        },
+        {
+          "name": "Ollama",
+          "iconifyClass": "simple-icons:ollama"
+        },
+        {
+          "name": "Meta",
+          "iconifyClass": "logos:meta-icon"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "logos:fastapi-icon"
+        }
+      ]
+    },
+    {
+      "id": "GPP-16",
+      "name": "Multi-Tenant Spring Starter",
+      "createdAt": "2024-10-14",
+      "url": "https://github.com/akondi-athreya/gpp-multitenancy-spring",
+      "description": "Reusable, production-hardened Spring Boot 3 starter for SaaS applications. Implements header-based multi-tenant datasource routing, enabling dynamic connection switching based on the 'X-Tenant-ID' header.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos:java"
+        },
+        {
+          "name": "Spring Boot",
+          "iconifyClass": "logos:spring-icon"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos:postgresql"
+        },
+        {
+          "name": "JUnit5",
+          "iconifyClass": "simple-icons:junit5"
+        }
+      ]
+    },
+    {
+      "id": "GPP-17",
+      "name": "User Profile Service",
+      "createdAt": "2024-10-21",
+      "url": "https://github.com/akondi-athreya/gpp-secure-user-profile-service",
+      "description": "Security-focused microservice for managing user profiles. Integrates with HashiCorp Vault for externalized secret management and uses JWT for stateless authentication, following best practices for PII protection.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos:java"
+        },
+        {
+          "name": "Spring Boot",
+          "iconifyClass": "logos:spring-icon"
+        },
+        {
+          "name": "Vault",
+          "iconifyClass": "logos:hashicorp-icon"
+        },
+        {
+          "name": "JWT",
+          "iconifyClass": "logos:jwt-icon"
+        }
+      ]
+    },
+    {
+      "id": "GPP-18",
+      "name": "Incremental Export System",
+      "createdAt": "2024-10-28",
+      "url": "https://github.com/akondi-athreya/gpp-incremental-export-system",
+      "description": "High-performance data export system designed for large datasets. Implements application-level CDC using high-watermark tracking to stream only incremental updates, minimizing database load and network bandwidth.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "Express",
+          "iconifyClass": "logos:express"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos:postgresql"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "logos:docker-icon"
+        }
+      ]
+    },
+    {
+      "id": "GPP-19",
+      "name": "Multi-Tenant Audit System",
+      "createdAt": "2024-11-04",
+      "url": "https://github.com/akondi-athreya/gpp-audit-log-system",
+      "description": "Hardened event streaming architecture for enterprise audit logs. Features Kafka with ACLs, SASL/SCRAM authentication, and automated archival to S3 (MinIO) for long-term compliance and durability.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Kafka",
+          "iconifyClass": "logos:kafka"
+        },
+        {
+          "name": "MinIO",
+          "iconifyClass": "simple-icons:minio"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "AWS",
+          "iconifyClass": "logos:aws"
+        }
+      ]
+    },
+    {
+      "id": "GPP-20",
+      "name": "Log Aggregation Pipeline",
+      "createdAt": "2024-11-11",
+      "url": "https://github.com/akondi-athreya/gpp-log-aggregation",
+      "description": "Centralized log bus using Fluentd and Kafka. Implements distributed trace propagation across multiple microservices and features a real-time WebSocket dashboard for live log monitoring and error alerting.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Kafka",
+          "iconifyClass": "logos:kafka"
+        },
+        {
+          "name": "Fluentd",
+          "iconifyClass": "simple-icons:fluentd"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "Socket.io",
+          "iconifyClass": "logos:socket-io"
+        }
+      ]
+    },
+    {
+      "id": "GPP-21",
+      "name": "Caching Layer API",
+      "createdAt": "2024-11-18",
+      "url": "https://github.com/akondi-athreya/gpp-caching-layer",
+      "description": "Production performance comparison service. Benchmarks Redis against Memcached under high-concurrency loads, analyzing latency, memory overhead, and eviction policies for different data access patterns.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Redis",
+          "iconifyClass": "logos:redis"
+        },
+        {
+          "name": "Memcached",
+          "iconifyClass": "logos:memcached"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "Vite",
+          "iconifyClass": "logos:vitejs"
+        }
+      ]
+    },
+    {
+      "id": "GPP-22",
+      "name": "Bulkhead Pattern API",
+      "createdAt": "2024-11-25",
+      "url": "https://github.com/akondi-athreya/gpp-bulkhead-pattern",
+      "description": "Resilience implementation for mission-critical services. Uses the Bulkhead pattern to isolate resources by subscription tier (Basic vs. Premium), preventing failure in one tier from cascading to the entire system.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos:postgresql"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "logos:docker-icon"
+        },
+        {
+          "name": "Jest",
+          "iconifyClass": "logos:jest"
+        }
+      ]
+    },
+    {
+      "id": "GPP-23",
+      "name": "Interactive Portfolio",
+      "createdAt": "2024-12-02",
+      "url": "https://github.com/akondi-athreya/gpp-athreya-portfolio",
+      "description": "Highly animated personal branding site. Features complex orchestration of Framer Motion and GSAP for fluid transitions, parallax effects, and interactive data visualizations, reflecting modern engineering standards.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "name": "Tailwind",
+          "iconifyClass": "logos:tailwindcss-icon"
+        },
+        {
+          "name": "Framer",
+          "iconifyClass": "logos:framer"
+        },
+        {
+          "name": "GSAP",
+          "iconifyClass": "simple-icons:greensock"
+        }
+      ]
+    },
+    {
+      "id": "GPP-24",
+      "name": "Conversational Form AI",
+      "createdAt": "2024-12-09",
+      "url": "https://github.com/akondi-athreya/gpp-conversational-form",
+      "description": "Intelligent form generation system. Uses LLMs to parse natural language requirements and dynamically generate functional, validated JSON Schema forms with interactive React-based user interfaces.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "JSON",
+          "iconifyClass": "simple-icons:json"
+        },
+        {
+          "name": "OpenAI",
+          "iconifyClass": "logos:openai-icon"
+        }
+      ]
+    },
+    {
+      "id": "GPP-25",
+      "name": "Multi-Provider Auth",
+      "createdAt": "",
+      "url": "https://github.com/akondi-athreya/gpp-multi-authentication",
+      "description": "Comprehensive authentication hub. Supports local login, Google, and GitHub OAuth 2.0 with unified JWT session management. Implements secure password hashing, refresh tokens, and Prisma-backed user management.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos:postgresql"
+        },
+        {
+          "name": "Prisma",
+          "iconifyClass": "logos:prisma"
+        },
+        {
+          "name": "Redis",
+          "iconifyClass": "logos:redis"
+        }
+      ]
+    }
+  ]
+}

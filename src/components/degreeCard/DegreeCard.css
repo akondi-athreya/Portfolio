@@ -24,10 +24,9 @@
   height: auto;
   border-radius: 50%;
   padding: 10px;
-  border: 1px solid #d9dbdf;
-  /* background-color: #6c63ff; */
-  /* background: transparent; */
-  box-shadow: 5px 5px 5px #d9dbdf;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08),
+    0 2px 4px -1px rgba(0, 0, 0, 0.04);
 }
 
 .body-header {
@@ -73,12 +72,11 @@
 
 .card-body {
   /* background-color: #00FF00; */
-  border-bottom: 1px solid #d9dbdf;
-  border-left: 1px solid #d9dbdf;
-  border-right: 1px solid #d9dbdf;
-  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
   margin: 10px;
-  box-shadow: 5px 5px 5px #d9dbdf;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08),
+    0 2px 4px -1px rgba(0, 0, 0, 0.04);
 }
 
 .visit-btn {
