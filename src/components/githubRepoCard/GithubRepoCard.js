@@ -2,7 +2,7 @@ import React from "react";
 import ProjectLanguages from "../../components/projectLanguages/ProjectLanguages";
 import "./GithubRepoCard.css";
 import { Fade } from "react-reveal";
-import icn from "../../assets/images/checklist-svgrepo-com.svg";
+// import icn from "../../assets/images/checklist-svgrepo-com.svg";
 
 export default function GithubRepoCard({ repo, theme }) {
   function openRepoinNewTab(url) {
